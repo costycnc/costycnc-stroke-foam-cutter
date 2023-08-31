@@ -1,0 +1,794 @@
+<html>
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+      .navbar {
+
+        overflow: hidden;
+
+        background-color: #333;
+
+      }
+
+      .navbar a {
+
+        float: left;
+
+        font-size: 12px;
+
+        color: white;
+
+        text-align: center;
+
+        padding: 4px 12px;
+
+        text-decoration: none;
+
+      }
+
+      .subnav {
+
+        float: left;
+
+        overflow: hidden;
+
+      }
+
+      .subnav .subnavbtn {
+
+        font-size: 14px;
+
+        border: none;
+
+        outline: none;
+
+        color: white;
+
+        padding: 4px 14px;
+
+        background-color: inherit;
+
+        font-family: inherit;
+
+        margin: 0;
+
+      }
+
+      .navbar a:hover,
+
+      .subnav:hover .subnavbtn {
+
+        background-color: green;
+
+      }
+
+      .subnav-content {
+
+        display: none;
+
+        position: absolute;
+
+        left: 0;
+
+        background-color: black;
+
+        width: 100%;
+
+        z-index: 1;
+
+      }
+
+      .subnav-content a {
+
+        float: left;
+
+        color: white;
+
+        text-decoration: none;
+
+      }
+
+      .subnav-content a:hover {
+
+        background-color: #eee;
+
+        color: black;
+
+      }
+
+      .subnav:hover .subnav-content {
+
+        display: block;
+
+      }
+
+      	  #mydiv {
+	  top:20px;
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
+    </style>
+
+  </head>
+
+  <body style="">
+
+    <div class="navbar">
+
+      <a href="https://www.costycnc.it">Home</a>
+
+      <div class="subnav">
+
+        <button class="subnavbtn">Miei programmi <i class="fa fa-caret-down"></i>
+
+        </button>
+
+        <div class="subnav-content">
+
+          <a href="https://www.costycnc.it/cm8">Image to gcode</a>
+
+          <a href="https://www.costycnc.it/svg5">Portaconfetti</a>
+
+        </div>
+
+      </div>
+
+      <div class="subnav">
+
+        <button class="subnavbtn">Programmi utili <i class="fa fa-caret-down"></i>
+
+        </button>
+
+        <div class="subnav-content">
+
+          <a href="https://www.costycnc.it/ch341.zip">Driver</a>
+
+          <a href="https://chrome.google.com/webstore/detail/gcode-sender/ngncibnakmabjlfpadjagnbdjbhoelom">Gcodesender</a>
+
+          <a href="http://lasergrbl.com/">Lasergrbl</a>
+
+          <a href="https://winder.github.io/ugs_website/">UGS(java)</a>
+
+          <a href="https://www.mydevice.io/">Dpi device</a>
+
+        </div>
+
+      </div>
+
+      <div class="subnav">
+
+        <button class="subnavbtn">Programmi grafica <i class="fa fa-caret-down"></i>
+
+        </button>
+
+        <div class="subnav-content">
+
+          <a href="https://inkscape.org/">Inkscape</a>
+
+          <a href="https://costycnc.it/paint">Paint online</a>
+
+          <a href="https://editor.method.ac/">Vector online</a>
+
+        </div>
+
+      </div>
+
+      <div class="subnav">
+
+        <button class="subnavbtn">Video macchina <i class="fa fa-caret-down"></i>
+
+        </button>
+
+        <div class="subnav-content">
+
+          <a href="https://youtu.be/0lovlg5-gow">Portaconfetti</a>
+
+          <a href="https://youtu.be/VDl1H5UtaYw">Scritta Bryan</a>
+
+          <a href="https://youtu.be/M3JqsfpbHB0">Velocita reale</a>
+
+          <a href="https://youtu.be/JJaYwIBw9jE">Montare</a>
+
+          <a href="https://youtu.be/xcrFBSwdMyc">Da vicino</a>
+
+        </div>
+
+      </div>
+      
+            <div class="subnav">
+
+        <button class="subnavbtn">Tutorial <i class="fa fa-caret-down"></i>
+
+        </button>
+
+        <div class="subnav-content">
+
+    
+
+    <a href="https://www.youtube.com/embed/Sa599WL7dAg">Scritta LOVE</a>
+    <a href="https://www.youtube.com/embed/l4alifPlXr8">Foam cement 1</a>
+    <a href="https://www.youtube.com/embed/jKWR9S7-rc4">Foam cement 2</a>
+    <a href="https://www.youtube.com/embed/y4LsoXFu0x4">Scritta Bella</a>
+    <a href="https://www.youtube.com/embed/HgLe_FkHhls">Collona Column</a>
+    
+    <a href="https://www.youtube.com/embed/C9G_VR5oYUA">3d sign</a>
+
+    <a  href="https://www.youtube.com/embed/KYpESYTXAsE">Sagoma Minnie</a>
+
+    <a href="https://www.youtube.com/embed/HG3uqcXcwJM">with Paint</a>
+
+    <a href="https://www.youtube.com/embed/aaW9xUMRWGQ">Minnie foamcutter and cut</a>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    
+
+	
+
+	
+
+	
+
+	<!--                                    -----------------------------------                 -->
+
+
+
+<div style="position:relative;left:50;top:200;">
+    
+    <div id="mydiv">
+        <div id="mydivheader">Click here to move</div>
+
+    <input  type="file" id="imageInput" accept="image/*">
+
+
+
+
+
+    <a href="https://www.costycnc.it/stroke1/" id="imageSelect" hidden="">open an image</a>
+
+
+
+    
+
+<br>
+
+    
+
+
+
+      <a href="https://www.costycnc.it/stroke1/" id="save"><button>Save svg</button></a>
+
+
+
+      <button onclick="location.reload();//refresh();">refresh</button>
+
+
+
+      <button onclick="z=true;topng()">Save png</button>
+
+
+
+      <button onclick="z=false;topng()">To clipboard</button>
+
+	  
+
+	  
+
+	  <br>
+
+  Stroke    <input  id="myRange" type="range" style="width:60%;" onmousemove="costycnc()" ontouchmove="costycnc()" min="1" max="100" step="1" value="1" >
+
+
+
+      <input type="text" id="stroke" value="1" maxlength="3" size="3" onchange="costycnc_manual(this.value)">
+      <br>
+
+	  Zoom
+
+	  
+
+	 <input style="width:80%;" type="range" min="1" max="10" step=".001" value="9" id="myRanges" onmousemove="costycnc1(this.value)" ontouchmove="costycnc1(this.value)">
+
+ 
+<br>
+
+
+
+   fill <input id="due" onchange="costycnc()" type="checkbox">
+
+one path <input id="due" onchange="if(this.checked){tmpcostycnc=true}else{tmpcostycnc=false}" type="checkbox">
+
+
+    </div>
+</div>
+    
+
+
+
+
+
+    <div id="svgdiv"></div>
+
+    <div></div>
+
+    <div id="imgdiv"></div>
+
+    <!-- Default Statcounter code for cm6 https://www.costycnc.it/cm6 -->
+
+    <script type="text/javascript">
+
+      var sc_project = 12422181;
+
+      var sc_invisible = 0;
+
+      var sc_security = "0c6b10f1";
+
+      var scJsHost = "https://";
+
+     document.write("<sc"+"ript type='text/javascript' src='" +	scJsHost+	"statcounter.com/counter/counter.js'></"+"script>");
+
+  </script>
+
+    <noscript>
+
+      <div class="statcounter">
+
+        <a title="Web Analytics" href="https://statcounter.com/" target="_blank">
+
+          <img class="statcounter" src="https://c.statcounter.com/12422181/0/0c6b10f1/0/" alt="Web Analytics">
+
+        </a>
+
+      </div>
+
+    </noscript>
+
+    <!-- End of Statcounter Code -->
+
+    <a href="https://statcounter.com/p12422181/?guest=1">View My Stats</a>
+
+    <br><br><br>
+
+    <script src="potrace.js"></script>
+
+    <script src="d3.v5.min.js"></script>
+
+    <script>
+
+      var scale,scale1,stroke,tmpcostycnc;
+
+      var w, h,z;
+
+      window.onload = function() {
+
+        var imageSelect = document.getElementById("imageSelect"),
+
+          imageInput = document.getElementById("imageInput");
+
+        imageSelect.addEventListener("click", function(e) {
+
+          imageInput.click();
+
+          e.preventDefault();
+
+        }, false);
+
+        imageInput.addEventListener("change", function(e) {
+
+          handleFiles(this.files);
+
+        }, false);
+
+        document.getElementById("save").addEventListener("click", function(e) {
+
+          e.target.download = "potrace" + (new Date()).toLocaleTimeString() + ".svg";
+
+          var potr = Potrace.getSVG(1);
+
+          e.target.href = "data:image/svg+xml;," + potr[0];
+
+        }, false);
+
+      };
+
+//***************************************************************************
+
+//inspired from 
+
+      //https://ourcodeworld.com/articles/read/491/how-to-retrieve-images-from-the-clipboard-with-javascript-in-the-browser	
+
+      function retrieveImageFromClipboardAsBlob(pasteEvent, callback) {
+
+        if (pasteEvent.clipboardData == false) {
+
+          if (typeof(callback) == "function") {
+
+            callback(undefined);
+
+          }
+
+        };
+
+        var items = pasteEvent.clipboardData.items;
+
+        if (items == undefined) {
+
+          if (typeof(callback) == "function") {
+
+            callback(undefined);
+
+          }
+
+        };
+
+        for (var i = 0; i < items.length; i++) {
+
+          console.log("type=" + items[i].type);
+
+          // Skip content if not image
+
+          if (items[i].type.indexOf("image") == -1) continue;
+
+          // Retrieve image on clipboard as blob
+
+          var blob = items[i].getAsFile();
+
+          if (typeof(callback) == "function") {
+
+            callback(blob);
+
+          }
+
+        }
+
+      }
+
+      window.addEventListener("paste", function(e) {
+
+        //25.09.2021 1
+
+        var items = e.clipboardData.items;
+
+        var file = items[0].type;
+
+        if (file == "text/plain") {
+
+          console.log("este text plain");
+
+          const dT = e.clipboardData;
+
+          const html = dT.getData('text/plain');
+
+          myFunction(html);
+
+        } else {
+
+          // Handle the event
+
+          retrieveImageFromClipboardAsBlob(e, function(imageBlob) {
+
+            // If there's an image, display it in the canvas
+
+            console.log(imageBlob);
+
+            if (imageBlob) {
+
+              console.log("imageblob=" + imageBlob);
+
+              var reader = new FileReader();
+
+              reader.onload = function() {
+
+                dataURL = reader.result;
+
+                myFunction(dataURL);
+
+              };
+
+              reader.readAsDataURL(imageBlob);
+
+            }
+
+          });
+
+        }
+
+      });
+
+      function myFunction(dataurl) {
+
+        Potrace.loadImageFromUrl(dataurl);
+
+        Potrace.process(function() {
+
+		//displayImg();
+
+        displaySVG(1);
+
+        });
+
+      };
+
+      //*********************************************************************************
+
+      function handleFiles(files) {
+
+        Potrace.loadImageFromFile(files[0]);
+
+        Potrace.process(function() {
+
+          //displayImg();
+
+          displaySVG(1);
+
+        });
+
+      }
+
+      //##############################################################################################################à
+
+      function refresh() {
+
+        Potrace.process(function() {
+
+          //displayImg();
+
+          displaySVG(1);
+
+        });
+
+        costycnc();
+
+      }
+      
+            function costycnc_manual(x) {
+                
+        document.getElementById('myRange').value=x;
+
+        var svg = document.getElementsByTagNameNS("http://www.w3.org/2000/svg", "path");
+
+
+        svg[0].setAttribute("stroke", 'black');
+
+        svg[0].setAttribute("stroke-width", x);
+
+        svg[0].setAttribute("paint-order", 'stroke');
+
+        if (document.getElementById("due").checked) {
+
+          svg[0].setAttribute("fill", 'black');
+
+        } else {
+
+          svg[0].setAttribute("fill", 'white');
+
+        }
+
+      }
+
+      function costycnc() {
+
+        var svg = document.getElementsByTagNameNS("http://www.w3.org/2000/svg", "path");
+
+        var x = document.getElementById("myRange").value;
+
+        document.getElementById("stroke").value = x;
+
+        svg[0].setAttribute("stroke", 'black');
+
+        svg[0].setAttribute("stroke-width", x);
+
+        svg[0].setAttribute("paint-order", 'stroke');
+
+        if (document.getElementById("due").checked) {
+
+          svg[0].setAttribute("fill", 'black');
+
+        } else {
+
+          svg[0].setAttribute("fill", 'white');
+
+        }
+
+      }
+
+      function costycnc1(value){
+          
+          scale=10-value;
+          valsvg=d3.select('#svg');
+          valv=valsvg.attr('width');
+          valh=valsvg.attr('height');
+          valsvg.attr('viewBox','0,0,'+(scale*valv)+','+(scale*valh));
+          //console.log('valv='+valv+' valh='+valh);
+          
+      }
+     
+     
+      function topng() {
+
+       var doctype = '<?xml version="1.0" standalone="no"?>'
+
+        + '<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">';
+
+        // serialize our SVG XML to a string.
+        
+        // 06.01.2023 modificato perche png salva con scale piccolo
+                  valsvg=d3.select('#svg');
+          valv=valsvg.attr('width');
+          valh=valsvg.attr('height');
+          valsvg.attr('viewBox','0,0,'+(valv)+','+(valh));
+        
+        //sfarsit 06.01.2023
+
+        var source = (new XMLSerializer()).serializeToString(d3.select('svg').node());
+
+        // create a file blob of our SVG.
+
+        var blob = new Blob([doctype + source], {
+
+          type: 'image/svg+xml;charset=utf-8'
+
+        });
+
+        var url = window.URL.createObjectURL(blob);
+
+        // Put the svg into an image tag so that the Canvas element can read it in.
+
+        var img = d3.select('body').append('img').attr('width', w).attr('height', h).node();
+
+        img.onload = function() {
+
+          // Now that the image has loaded, put the image into a canvas element.
+
+          d3.select('body').append('canvas');
+
+          var canvas = d3.select('canvas').node();
+
+          canvas.width = w;
+
+          canvas.height = h;
+
+          var ctx = canvas.getContext('2d');
+
+          ctx.drawImage(img, 0, 0);
+
+          var canvasUrl = canvas.toDataURL("image/png");
+
+          //console.log(canvasUrl);
+
+		    navigator.clipboard.writeText(canvasUrl);
+
+		  if(z){
+
+          var link = document.createElement("a");
+
+          link.setAttribute("href", canvasUrl);
+
+          link.setAttribute("download", "costycnc.png");
+
+          link.click();
+
+		  }
+
+          var svg = d3.selectAll("img");
+
+          svg.remove();
+
+        }
+
+        // start loading the image.
+
+        img.src = url;
+
+      }
+
+      //####################################################################################################################
+
+      function displayImg() {
+
+        /*
+
+          var imgdiv = document.getElementById('imgdiv');
+
+          imgdiv.style.display = 'inline-block';
+
+          imgdiv.innerHTML = "<p>Input image:</p>";
+
+		  imgdiv.appendChild(Potrace.img);
+
+          */
+
+      }
+
+      function displaySVG(size, type) {
+
+        var svgdiv = document.getElementById('svgdiv');
+
+        svgdiv.style.display = 'inline-block';
+
+        var potr = Potrace.getSVG(size, type);
+
+        console.log(" w=" + potr[1][0] + " h=" + potr[1][1]);
+
+        w = potr[1][0];
+
+        h = potr[1][1];
+
+        svgdiv.innerHTML = "<p>Result:</p>" + potr[0];
+
+      }
+      
+      	  dragElement(document.getElementById("mydiv"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+    
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+    elmnt.ontouchstart = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;	
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+    
+  }
+}
+
+    </script>
+
+  </body>
+
+</html>
