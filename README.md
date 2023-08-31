@@ -18,15 +18,10 @@ Once you've created the contour, you can save it or copy it to the clipboard.
 
 Converting contours to G-code:
 
-To convert the contour to G-code, you can use the Costycnc G-code generator from here <a hrefs="https://www.costycnc.it/cm8">https://www.costycnc.it/cm8</a>. The G-code generator will create a file that you can then load into your foam cutter.
+To convert the contour to G-code, you can use the Costycnc G-code generator from here <a hrefs="https://www.costycnc.it/cm8">https://www.costycnc.it/cm8</a>. The G-code generator will create a file gcode and from same page can send to foam cutter.
 
 Conclusion:
 
 Costycnc is a powerful tool that can help you create contours for your foam cutter quickly and easily. Whether you're a beginner or an experienced user, Costycnc is a valuable resource.
 
-Here are some additional tips for using Costycnc:
-
-Use the zoom feature to get a closer look at your work.
-Use the undo and redo buttons to make changes as needed.
-Save your work regularly to avoid losing any progress.
 With a little practice, you'll be creating precise contours for your foam cutter in no time.
