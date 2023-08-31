@@ -1,1 +1,38 @@
 # costycnc-stroke-foam-cutter
+
+Create Contours for Your Foam Cutter with Costycnc
+
+Introduction:
+
+If you have a foam cutter, you know that creating contours for your cuts can be a challenge. You need to have advanced CAD/CAM skills to create accurate and precise contours.
+
+But what if there was a way to create contours for your foam cutter without having any CAD/CAM skills?
+
+That's where Costycnc comes in. Costycnc is a free and easy-to-use program that allows you to create contours for your foam cutter in just a few minutes.
+
+How it works:
+
+To use Costycnc, simply open an image of the text or shape you want to cut. Then, use the tools in Costycnc to create the contour.
+
+Costycnc offers a variety of tools to help you create precise contours, including:
+
+Pen tool: The pen tool allows you to create freehand contours.
+Line tool: The line tool allows you to create straight lines.
+Rectangle tool: The rectangle tool allows you to create rectangles.
+Circle tool: The circle tool allows you to create circles.
+Once you've created the contour, you can save it or copy it to the clipboard.
+
+Converting contours to G-code:
+
+To convert the contour to G-code, you can use the Costycnc G-code generator. The G-code generator will create a file that you can then load into your foam cutter.
+
+Conclusion:
+
+Costycnc is a powerful tool that can help you create contours for your foam cutter quickly and easily. Whether you're a beginner or an experienced user, Costycnc is a valuable resource.
+
+Here are some additional tips for using Costycnc:
+
+Use the zoom feature to get a closer look at your work.
+Use the undo and redo buttons to make changes as needed.
+Save your work regularly to avoid losing any progress.
+With a little practice, you'll be creating precise contours for your foam cutter in no time.
