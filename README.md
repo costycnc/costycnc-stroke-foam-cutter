@@ -1,6 +1,6 @@
 # costycnc-stroke-foam-cutter
 
-Create Contours for Your Foam Cutter with Costycnc (this page can find also here <a hrefs="https://www.costycnc.it/stroke1">https://www.costycnc.it/stroke1</a>
+Create Contours for Your Foam Cutter with Costycnc (this page can find also here <a hrefs="https://www.costycnc.it/stroke1">https://www.costycnc.it/stroke1</a>)
 
 Introduction:
 
