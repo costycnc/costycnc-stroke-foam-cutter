@@ -1273,8 +1273,8 @@ xhr.send("name="+imgElement.file.name+" "+imgElement.height+"x"+imgElement.width
     }
     var w = (bm.w * size)+20, h = (bm.h * size)+20,
       len = pathlist.length, c, i, strokec, fillc, fillrule;
-    var svg = '<svg id="svg" version="1.1" width="' + w + '" height="' + h +
-        '" xmlns="http://www.w3.org/2000/svg">';
+    var svg = '<svg id="svg" version="1.1" width="' + w*2 + '" height="' + h*2 +
+        '" xmlns="http://www.w3.org/2000/svg"><defs><g id="pointer0">';
     svg += '<path id="costy" d="';
 	//++++++++++++++++++++++++++++++++++++++++++++++++++
 	if(tmpcostycnc){
@@ -1298,7 +1298,7 @@ xhr.send("name="+imgElement.file.name+" "+imgElement.height+"x"+imgElement.width
       fillc = "black";
       fillrule = ' fill-rule="evenodd"';
     }
-    svg += '" stroke="' + strokec + '" fill="' + fillc + '"' + fillrule + '/></svg>';
+    svg += '" stroke="' + strokec + '" fill="' + fillc + '"' + fillrule + '/></g></defs><use id="euse" href="#pointer0" x="0" y="0"></use></svg>';
 	var svg1=[];
 	svg1.push(svg);
 	svg1.push([w,h]);
